@@ -1,5 +1,5 @@
-import 'package:projeto_inicial/projeto_inicial.dart' as projeto_inicial;
-
-void main(List<String> arguments) {
-  print('Hello world: ${projeto_inicial.calculate()}!');
+void main() {
+  int idade = 20;
+  double altura = 768e57;
+  print(altura);
 }
