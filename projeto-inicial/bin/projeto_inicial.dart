@@ -15,10 +15,30 @@ void main() {
 
   bool maiorDeIdade;
 
-  if(idade >= 18){
+  int energia = 100;
+
+  if (idade >= 18) {
     maiorDeIdade = true;
   } else {
     maiorDeIdade = false;
+  }
+
+  // for (var i = 1; i <= 5; i++) {
+  //   print('Voltas $i');
+  // }
+
+  // while (energia > 0) {
+  //   print('Minha energia: $energia');
+  //   energia -= 5;
+  // }
+
+  // do {
+  //   print('Minha energia: $energia');
+  //   energia -= 5;
+  // } while (energia > 0);
+
+  for (int i = 0; i < 10; i++) {
+    print('Os Quase-Vingadores tem $i novos membros!');
   }
 
   String nome1 = 'a';
@@ -35,5 +55,5 @@ void main() {
       'Eu tenho ${hora[3]} metros de altura e \n'
       '${hora[2]} anos de idade,\n'
       'Eu sou maior de idade? $maiorDeIdade';
-  print(frase);
+  // print(frase);
 }
